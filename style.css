@@ -1,0 +1,235 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #DEDfe4;
+}
+
+header {
+    background-color: #393a3f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    
+}
+nav ul {
+    list-style-type: none;
+    padding: 5px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    padding-left: 3px;
+    width: 100%;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+} 
+
+
+section { 
+    padding: 2px;
+    text-align: center;
+}
+
+#about{
+    font-size: 21px;
+    padding-top: 3px;
+}
+
+footer {
+    background-color: #393a3f;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    bottom: 0;
+    width: 100%;
+}
+.img{
+    text-align: center;
+    display: flex;
+    padding-top: 20px;
+}
+#mypic{
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    opacity: 1;
+
+}
+#mypic:hover{
+    opacity: 0.8;
+}
+.img-about{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.img, .about{
+    text-align: center;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+}
+ .social-media{
+    text-align: center;
+    flex-wrap:wrap-reverse;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+#instagram, #linkedin, #github{
+    color: #393a3f;
+    padding-right: 5px;
+    padding-bottom: 30px;
+}
+.btn-resume{
+    background-color: black;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 20px;
+    text-align: center;
+    
+}
+.btn-resume a{
+    color: white;
+    text-decoration: none;
+}
+#btn-send{
+    background-color: black;
+    color: white;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+#name, #email{
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+#message{
+    border-radius: 5px;
+}
+.contact-info{
+    padding: 20px;
+    margin: 0;
+    
+}
+.skillsproject{
+    text-align:justify;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 20px;
+}
+.skill{
+    height: 210px;
+    width: 100%;
+    display:flex;
+    text-align: center;
+    background-color: bisque;
+    align-content: center;
+    align-items: center;
+   margin: auto;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 20px;   
+}
+.skill-pic{
+    padding: 5px, 5px, 5px, 5px;
+    text-align: center;
+    margin-top: 5px;
+    margin-right: 60px;
+}
+.skill .skill-info{
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: auto;
+}
+.project{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    padding: 5px;
+    margin: auto;
+    background-color: bisque;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    
+}
+@media screen and (max-width: 800px){
+    .project{
+        height: 650px;
+        background-color: bisque;
+        max-width: 100%;
+        display: inline;
+        text-align: center;
+    }
+    .project-pic{
+        margin: auto;
+        
+    }
+    #project{
+        margin: 0.25px 0 0.25px 0;
+    }
+    .skill{
+        max-width: 100%;
+        text-align: center;
+        display:flex;
+        flex-direction: row;
+    }
+    .skill .skill-info{
+        margin: auto;
+       align-items: center;
+        text-align: center;
+       margin-right: 50px;
+    }
+    #mypic{
+        max-height: 300px;
+        max-width: 300px;
+    }.btn-resume{
+        text-align: center;
+        align-items: center;
+    }
+}
+    
+
+#skill{
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding-left: 5px;
+}
+#skill:hover{
+    opacity: 0.8;
+}
+#project{
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.project-pic{
+    padding: 50px 50px 50px 5px;
+    text-align: center;
+}
+#project:hover{
+    opacity: 0.8;
+}
