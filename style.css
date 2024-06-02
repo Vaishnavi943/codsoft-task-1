@@ -143,8 +143,9 @@ footer {
     align-items: center;
    margin: auto;
     padding: 5px;
-    margin-bottom: 10px;
+    
     border-radius: 20px;   
+    margin: 0 10px 10px 10px
 }
 .skill-pic{
     padding: 5px, 5px, 5px, 5px;
@@ -168,8 +169,8 @@ footer {
     padding: 5px;
     margin: auto;
     background-color: bisque;
-    margin-bottom: 5px;
     border-radius: 20px;
+    margin: 0 10px 5px 10px
     
 }
 @media screen and (max-width: 800px){
